@@ -3,7 +3,7 @@
 const app = require('./config/basic')
 
 require('./config/database')
-require('./config/daniel')
+require('./config/')
 require('./config/routes')(app)
 require('./config/models')
 
